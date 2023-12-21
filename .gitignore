@@ -396,7 +396,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
-
+.aws-sam
 ### VisualStudio Patch ###
 # By default, sensitive information, such as encrypted password
 # should be stored in the .pubxml.user file.
