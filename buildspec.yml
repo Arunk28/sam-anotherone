@@ -2,5 +2,6 @@ version: 0.2
 phases:
   build:
     commands:
+      - /usr/local/bin/dotnet-install.sh --channel LTS
       - sam build
       - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
