@@ -1,4 +1,5 @@
 version: 0.2
+
 phases:
   install:
     runtime-versions:
@@ -11,7 +12,7 @@ phases:
 
   build:
     commands:
-      - sam deploy --template-file .aws-sam/build/template.yaml --stack-name net-stack --capabilities CAPABILITY_IAM
+      - sam deploy --template-file .aws-sam/build/template.yaml --stack-name YourStackName --capabilities CAPABILITY_IAM
 
 artifacts:
   files:
