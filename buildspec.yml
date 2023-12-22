@@ -1,19 +1,6 @@
 version: 0.2
-
 phases:
-  install:
-    runtime-versions:
-      nodejs: 14
-
-  pre_build:
-    commands:
-      - npm install -g aws-sam-cli
-      - sam build
-
   build:
     commands:
-      - sam deploy --template-file .aws-sam/build/template.yaml --stack-name YourStackName --capabilities CAPABILITY_IAM
-
-artifacts:
-  files:
-    - template.yaml
+      - sam build
+      - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
