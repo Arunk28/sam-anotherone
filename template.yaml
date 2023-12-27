@@ -11,7 +11,7 @@ Resources:
   netappHelloWorldFunction1FqSMOnQN6yP:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: .
+      CodeUri: ./src/HelloWorld/
       Description: ''
       MemorySize: 256
       Timeout: 10
