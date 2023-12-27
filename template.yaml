@@ -38,8 +38,7 @@ Resources:
               Resource: '*'
       SnapStart:
         ApplyOn: None
-      Tags:
-        lambda:createdBy: SAM
+     
       Events:
         Api1:
           Type: Api
