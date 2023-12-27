@@ -44,5 +44,4 @@ Resources:
           Type: Api
           Properties:
             Path: /hello
-            Method: GET
-      RuntimeManagementConfig: {}
+            Method: GET    
