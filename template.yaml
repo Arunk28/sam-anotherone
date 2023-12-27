@@ -17,6 +17,7 @@ Resources:
       Timeout: 10
       Handler: HelloWorld::HelloWorld.Function::FunctionHandler
       Runtime: dotnet6
+      FunctionName: helloworld-anotherone
       Architectures:
         - x86_64
       EphemeralStorage:
